@@ -8,7 +8,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h1{
+body h1{
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     font-size: 5em;
@@ -20,12 +20,13 @@ h2{
     color: white;
     text-align: center;
 }
-img{
+#flecha{
     margin-left: 48%;
     margin-bottom: 100px;
 }
 nav{
-    padding-left: 25% ;
+    padding-left: 25%;
+    width: 900px;
 }
 ul {
     text-align: center;
@@ -33,7 +34,6 @@ ul {
     padding: 15px;
     background-color: #474b50;
     height: 50px;
-    width: 900px;
 }
 ul li {
     display: inline;
@@ -48,4 +48,38 @@ ul li a {
 ul li a:hover {
     background-color: black;
     transition: 1s;
+}
+div {
+    background-color: white;
+    width: 900px;
+    margin-left: 25%;
+    color: black;
+}
+div h2 {
+    color: black;
+    font-size: 3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+p {
+    font-size: 150%;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+#viaje{
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+form {
+    text-align: left;
+    background-color: #cad1ce;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+label, input {
+    margin-left: 40%;
+}
+button {
+    margin-left: 46%;
 }
