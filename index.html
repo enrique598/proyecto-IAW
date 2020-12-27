@@ -11,19 +11,33 @@
 <body>
 <h1>VIAJES BOSCO</h1>
 <h2>Las mejores aventuras por todo el mundo gestionadas por tu propio centro educativo</h2>
-<img src="img/abajo-1.png" alt="boton">
+<img src="img/abajo-1.png" alt="boton" id="flecha">
+<nav>
+    <ul>
+        <li><a href=index.html>INTRODUCCIÓN</a></li>
+        <li><a href=tabla.html>INDIA</a></li>
+        <li><a href=formulario.html>MÉXICO</a></li>
+        <li><a href=tabla.html>NUEVA ZELANDA</a></li>
+        <li><a href=formulario.html>PERÚ</a></li>
+        <li><a href=tabla.html>ISLANDIA</a></li>
+        <li><a href=formulario.html>JAPÓN</a></li>
+    </ul>
+</nav>
     <div>
-        <nav>
-            <ul>
-                <li><a href=index.html>INTRODUCCIÓN</a></li>
-                <li><a href=tabla.html>INDIA</a></li>
-                <li><a href=formulario.html>MÉXICO</a></li>
-                <li><a href=tabla.html>NUEVA ZELANDA</a></li>
-                <li><a href=formulario.html>PERÚ</a></li>
-                <li><a href=tabla.html>ISLANDIA</a></li>
-                <li><a href=formulario.html>JAPÓN</a></li>
-            </ul>
-        </nav>
+        <h2>NO SUEÑES, VUELA DE VERDAD</h2>
+        <p>Tenemos los mejores aviones hacia destinos de todo el planeta. Sólo dinos donde quieres ir</p>
+        <img src="img/viaje.jpg" alt="foto" id="viaje">
+        <form method="post" id="formulario">
+            <p id="R">ENVÍO DE DATOS</p>
+            <label for=Nombre>NOMBRE</label><br>
+            <input type="text" name="nombre" id="Nombre"><br><br>
+            <label for="Apellido">APELLIDOS</label><br>
+            <input type="text" name="apellidos" id="Apellido"><br><br>
+            <label for="Email">EMAIL</label><br>
+            <input type="text" name="Email" id="Email"><br><br>
+            <button>ENVIAR</button>
+        </form>
     </div>
+
 </body>
 </html>
