@@ -12,7 +12,7 @@
 <h1>VIAJES BOSCO</h1>
 <h2>Las mejores aventuras por todo el mundo gestionadas por tu propio centro educativo</h2>
 <img src="img/abajo-1.png" alt="boton" id="flecha">
-<nav>
+<nav class="scroll" id="menu">
     <ul>
         <li><a href="index.html">INTRODUCCIÓN</a></li>
         <li><a href=#india>INDIA</a></li>
@@ -42,20 +42,22 @@
             </tr>
         </table>
         <form method="post" id="formulario">
-            <p id="R">ENVÍO DE DATOS</p>
+            <pre id="R">ENVÍO DE DATOS</pre>
             <label for=nombre>NOMBRE</label><br>
             <input type="text" name="nombre" id="nombre"><br><br>
             <label for="apellido">APELLIDOS</label><br>
             <input type="text" name="apellidos" id="apellido"><br><br>
             <label for="email">EMAIL</label><br>
             <input type="text" name="email" id="email"><br><br>
-            <p id="V">VIAJES DESEADOS</p>
-            <input type="checkbox" name="viaje" value="india" class="box"> INDIA
-            <input type="checkbox" name="viaje" value="mexico" class="box"> MÉXICO
-            <input type="checkbox" name="viaje" value="zelanda" class="box"> NUEVA ZELANDA
-            <input type="checkbox" name="viaje" value="peru" class="box"> PERÚ
-            <input type="checkbox" name="viaje" value="islandia" class="box"> ISLANDIA
-            <input type="checkbox" name="viaje" value="japon" class="box"> JAPÓN
+            <section>
+                <p id="V">VIAJES DESEADOS</p>
+                <input type="checkbox" name="viaje" value="india" class="box"> INDIA
+                <input type="checkbox" name="viaje" value="mexico" class="box"> MÉXICO
+                <input type="checkbox" name="viaje" value="zelanda" class="box"> NUEVA ZELANDA
+                <input type="checkbox" name="viaje" value="peru" class="box"> PERÚ
+                <input type="checkbox" name="viaje" value="islandia" class="box"> ISLANDIA
+                <input type="checkbox" name="viaje" value="japon" class="box"> JAPÓN
+            </section>
             <button>ENVIAR</button>
         </form>
     </div>

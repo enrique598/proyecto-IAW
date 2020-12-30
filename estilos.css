@@ -1,49 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
-body{
-    margin-top: 21%;
+*{
+    margin: auto;
+}
+body {
+    margin-top: 20%;
     background-image: url("img/fondo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-body h1{
+h1{
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     font-size: 5em;
     text-align: center;
+    margin-bottom: 8%;
 }
 h2{
     font-family: 'Merriweather', serif;
     font-size: 2em;
     color: white;
     text-align: center;
+    margin-bottom: 3%;
 }
 #flecha{
-    margin-left: 48%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 100px;
 }
 nav{
-    padding-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     width: 900px;
 }
+.menu{
+    z-index: 1000;
+    top: -100px;
+    margin: 0 auto;
+    left:0;
+    right:0;
+    position: fixed;
+}
 ul {
-    text-align: center;
+    text-align: left;
     margin-top: 100px;
-    padding: 15px;
+    overflow: hidden;
     background-color: #474b50;
     height: 50px;
+    padding-left: 9%;
 }
 ul li {
-    display: inline;
+    margin-top: 2%;
+    display: block;
+    float: left;
 }
 ul li a {
     font-family: Arial;
     font-size: 1em;
-    padding: 15px;
     text-decoration: none;
     color: white;
+    padding: 15px;
 }
 ul li a:hover {
     background-color: black;
@@ -52,7 +71,8 @@ ul li a:hover {
 div {
     background-color: white;
     width: 900px;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     color: black;
     margin-bottom: 100px;
 }
@@ -125,41 +145,49 @@ button:hover{
     background-color: #4096a5;
 }
 table {
-    text-align: center;
-    width: 100%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .imgtabla{
-    width: 300px;
+    width: 380px;
 }
-td {
-    display: block;
-    margin: auto;
-    width: 300px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-#R {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 3em;
-}
-.box {
-    margin-left: 40px;
+th {
+    padding-right: 20px;
 }
 #V {
     font-family: 'Source Code Sans', sans-serif;
     font-weight: bold;
     text-align: left;
+    margin-bottom: 2%;
+
 }
 h3 {
     color: black;
     font-size: 3em;
     font-family: 'Source Sans Sans', sans-serif;
     text-align: center;
+    margin-bottom: 3%;
+    margin-top: 5%;
 }
 th p {
     color: black;
     font-size: 1.5em;
     font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+section{
+    border: solid 2px black;
+    margin: 2% 4.5%;
+}
+.box {
+    margin-left: 40px;
+}
+#R {
+    font-family: 'Source Sans Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
     text-align: center;
 }
