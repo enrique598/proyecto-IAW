@@ -10,9 +10,8 @@ function restaurar() {
 }
 function cambiar() {
     var flecha = document.getElementById('flecha').src = "img/abajo-2.png";
-
 }
-//el siguiente codigo es para conseguir que el menu se quede pegato a la parte superior de arriba la hacer scroll hacia abajo
+//el siguiente codigo es para conseguir que el menu se quede pegado a la parte superior de arriba la hacer scroll hacia abajo
 /*$(documenet).ready(function () {
     var altura = $('.normal').offset().top;
     alert(altura);
@@ -36,6 +35,10 @@ window.addEventListener('scroll', function () {
     }
 });
 //boton de scroll automatico
-document.getElementById('menu').onclick =function () {
-
+document.getElementById('flecha').onclick =function scroll(menu) {
+    var ele = document.getElementById('menu');
+    window.scrollTo(ele.offsetLeft, ele.offsetTop);
+    document.getElementById('menu').scrollIntoView({
+        behavior: 'smooth'
+    });
 }
