@@ -2,13 +2,13 @@
 window.addEventListener('load', iniciar, false);
 function iniciar() {
     var image = document.getElementById('flecha');
-    flecha.addEventListener('mouseover', cambiar, false);
+    flecha.addEventListener('mouseover', foto2, false);
     flecha.addEventListener('mouseout', restaurar, false);
 }
 function restaurar() {
     var flecha= document.getElementById('flecha').src = "img/abajo-1.png";
 }
-function cambiar() {
+function foto2() {
     var flecha = document.getElementById('flecha').src = "img/abajo-2.png";
 }
 //el siguiente codigo es para conseguir que el menu se quede pegado a la parte superior de arriba la hacer scroll hacia abajo
