@@ -42,3 +42,39 @@ document.getElementById('flecha').onclick =function scroll(menu) {
         behavior: 'smooth'
     });
 }
+function cambiar() {
+    document.getElementById('india').classList.toggle("fondo");
+}
+document.getElementById('india').onclick =function () {
+    cambiar();
+}
+function cambiar2() {
+    document.getElementById('mexico').classList.toggle("fondo");
+}
+document.getElementById('mexico').onclick =function () {
+    cambiar2();
+}
+function cambiar3() {
+    document.getElementById('nuevazelanda').classList.toggle("fondo");
+}
+document.getElementById('nuevazelanda').onclick =function () {
+    cambiar3();
+}
+function cambiar4() {
+    document.getElementById('peru').classList.toggle("fondo");
+}
+document.getElementById('peru').onclick =function () {
+    cambiar4();
+}
+function cambiar5() {
+    document.getElementById('islandia').classList.toggle("fondo");
+}
+document.getElementById('islandia').onclick =function () {
+    cambiar5();
+}
+function cambiar6() {
+    document.getElementById('japon').classList.toggle("fondo");
+}
+document.getElementById('japon').onclick =function () {
+    cambiar6();
+}
